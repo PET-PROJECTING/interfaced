@@ -36,7 +36,7 @@ FooBarBazInterface = interfaced_with {
 FooInterface = interfaced_with {
   extends FooBarInterface
   unrequired_methods :bar
-} # expect only :foo method to be inplemented
+} # expect only :foo method to be implemented
 ```
 ### Aliases
 #### Defining interface
